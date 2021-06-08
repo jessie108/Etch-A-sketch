@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  width: 800px;
+  height: 750px;
+  background-color: #364b5f;
+  margin: 30px auto;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+
+  /* position: relative; */
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  font-family: cursive;
+  color: rgb(245, 230, 20);
+  font-style: oblique;
+  background-blend-mode: luminosity;
+}
+.gamebox {
+  display: flex;
+  /* align-items:center; */
+  margin-top: 50px;
+}
+
+.play {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(224, 228, 32);
+}
+
+#myRange {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button {
+  width: 155px;
+  height: 35px;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(138, 201, 182);
+  margin-top: 50px;
+  border-radius: 25px;
+  transition: 0.3s all;
+}
+
+.button:hover {
+  background-color: #e4378d;
+  transform: scale(1.2);
+}
+
+#shadesButton,
+#reset {
+  background-color: #e9aa45;
+}
+#shadesButton:hover {
+  background-color: #e4378d;
+  transform: scale(1.2);
+}
+#reset:hover {
+  background-color: #e4378d;
+  transform: scale(1.2);
+}
+
+span {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#container {
+  display: grid;
+  width: 550px;
+  height: 550px;
+  border: 1px solid rgb(243, 243, 247);
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.grid {
+  border: 1px solid rgb(233, 233, 235);
+  border-radius: 5px;
+}

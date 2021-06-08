@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Etch a Sketch</h1>
+
+        <div class="gamebox">          
+            <div class="play">
+                <input type="range" id="myRange" min="2" max="64" value="5"> Grid Size:
+                <p>  <span id="number"></span></p>
+                
+                    <button class="button" id='randomButton'>Random Color</button>
+                    <button class="button" id='shadesButton'>Shades Color</button>
+                    <button class="button" id='eraser'> Eraser</button>
+                    <button class="button" id='reset'> Reset</button>
+                             
+               
+            </div>
+            <div id= "container">  
+                
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
